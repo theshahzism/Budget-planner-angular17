@@ -6,7 +6,7 @@ body {
 }
 
 .navbar {
-  background: linear-gradient(135deg, #008080, #80ced6);
+  background: linear-gradient(135deg, red,#444);
   padding: 10px 20px;
   display: flex;
   justify-content: center;
@@ -40,7 +40,7 @@ input[type="text"] {
 width: 90%;
 padding: 15px;
 border-radius: 6px;
-border: 1px solid #008080;
+border: 1px solid red;
 background-color: #f5f5f5;
 }
 
@@ -55,14 +55,14 @@ width: 100%;
 padding: 15px;
 border: none;
 border-radius: 6px;
-background: linear-gradient(135deg, #008080, #80ced6);
+background: linear-gradient(135deg, red, #444);
 color: #ffffff;
 cursor: pointer;
 transition: background-color 0.3s ease;
 }
 
 button:hover {
-background: #67bbc6;
+background: red;
 }
 
 p {
@@ -77,6 +77,6 @@ text-decoration: underline;
 }
 
 .highlighted:hover {
-color: #80ced6;
+color: red;
 text-decoration: underline;
 }
